@@ -18,7 +18,7 @@ def import_plugins(package):
 
     logging.debug(f"Importing plugins from package: {package_name}")
     logging.debug(f"Package file attribute: {package_file}")
-
+name1 = message.from_user.first_name
     if package_file is None:
         raise ValueError(f"Package {package_name} does not have a file attribute. It might be a namespace package.")
 
