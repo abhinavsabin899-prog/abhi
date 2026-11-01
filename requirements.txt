@@ -9,7 +9,7 @@ python-telegram-bot==22.5
 #addtional
 aiohttp
 bs4==0.0.2
-pillow==10.3.0
+pillow==11.3.0
 telegraph[aio]
 motor[srv]
 img2pdf==0.5.1
